@@ -10,7 +10,7 @@ from face_crop import remove_and_add_white_background
 
 
 FORMAT = '%(asctime)-15s [%(levelname)s] [%(filename)s:%(lineno)s]: %(message)s'
-# logging.basicConfig(format=FORMAT, level=logging.INFO, filename="logs/passiveliveliness.out")
+logging.basicConfig(format=FORMAT, level=logging.INFO, filename="logs/passiveliveliness.out")
 
 app = Flask(__name__)
 DATE_FORMAT = "%d-%m-%Y"
